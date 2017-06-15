@@ -1,0 +1,24 @@
+{
+  "name": "express_fundamentals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "express": "^4.15.3",
+    "handlebars": "^4.0.10",
+    "lodash": "^4.17.4",
+    "pug": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
