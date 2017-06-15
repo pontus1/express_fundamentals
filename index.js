@@ -29,11 +29,7 @@ app.get('/', function (req, res) {
 
 app.get('/:username', function (req, res) {
   var username = req.params.username
-  var user = user.getUser(username)
-  res.render('user', {
-    user: user,
-    address: user.location
-  })
+  res.render('user', {username: username})
 })
 
 var server = app.listen(3000, function () {
