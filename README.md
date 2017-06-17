@@ -1,6 +1,12 @@
 A basic node server using express
 
-# Start development server
+### Start server
+ 
+```
+npm run start
+```
+
+### Start development server
 
 ```
 npm run dev
